@@ -1,0 +1,29 @@
+.sprite {
+  background-image: url(spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-boll {
+  width: 46px;
+  height: 40px;
+  background-position: -5px -5px;
+}
+
+.sprite-fb {
+  width: 46px;
+  height: 40px;
+  background-position: -61px -5px;
+}
+
+.sprite-pp {
+  width: 46px;
+  height: 40px;
+  background-position: -117px -5px;
+}
+
+.sprite-tw {
+  width: 46px;
+  height: 40px;
+  background-position: -173px -5px;
+}
