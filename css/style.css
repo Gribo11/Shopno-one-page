@@ -1358,6 +1358,7 @@ span {
   #header .main-nav-trigger {
     display: block;
     padding-left: 82%;
+    padding-top: 12px;
   }
 }
 
@@ -1417,7 +1418,7 @@ span {
     width: 100%;
     display: block;
     margin-left: 0;
-    padding-left: 80%;
+    padding-left: 73%;
     padding-bottom: 15px;
   }
 }
@@ -1440,6 +1441,13 @@ span {
 
 #header .slogan {
   margin-top: 250px;
+}
+
+@media (max-width: 480px) {
+  #header .slogan h1 {
+    font-size: 1.6em;
+    margin-top: 265px;
+  }
 }
 
 #header .btn {
@@ -1548,6 +1556,14 @@ span {
   height: 360px;
   width: 363px;
   transition: .3s;
+}
+
+@media (max-width: 480px) {
+  #wf .portfolio-items img {
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+  }
 }
 
 #wf .portfolio-items img:hover {
@@ -1672,6 +1688,7 @@ span {
 @media (max-width: 480px) {
   #service p.bl {
     line-height: 18px;
+    font-size: 12px;
   }
 }
 
@@ -1716,7 +1733,7 @@ span {
 @media (max-width: 480px) {
   #team li {
     width: 100%;
-    margin-left: 2%;
+    margin-left: 3%;
   }
 }
 
@@ -1855,6 +1872,12 @@ span {
   margin: 0;
 }
 
+@media (max-width: 480px) {
+  #says .description_say p {
+    font-size: 15px;
+  }
+}
+
 #says a {
   display: inline-block;
   float: right;
@@ -1947,7 +1970,7 @@ span {
 
 @media (max-width: 480px) {
   #says .riting {
-    margin-left: 125px;
+    margin-left: 95px;
   }
 }
 
